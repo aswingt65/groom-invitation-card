@@ -876,7 +876,7 @@ function GroomReveal() {
         return (
           i.useEffect(() => {
             let e = setTimeout(() => {
-              let e = new Date("2026-12-30T11:11:00+05:30").getTime();
+              let e = new Date("2026-12-30T10:30:00+05:30").getTime();
               y(new Date().getTime() > e);
             }, 0);
             return () => clearTimeout(e);
@@ -1051,7 +1051,7 @@ function GroomReveal() {
                             (0, s.jsx)("p", {
                               children: "ON WEDNESDAY, 30TH DECEMBER 2026",
                             }),
-                            (0, s.jsx)("p", { children: "AT 11:11 AM" }),
+                            (0, s.jsx)("p", { children: "AT 10:30 AM" }),
                             (0, s.jsx)("p", {
                               children: "AT TRINITY (MEDICAL COLLEGE) MAR THOMA SYRIAN CHURCH,",
                             }),
@@ -1165,7 +1165,7 @@ function GroomReveal() {
                                         children: "Countdown to the Big Day",
                                       }),
                                       (0, s.jsx)(u, {
-                                        targetDate: "2026-12-30T11:11:00+05:30",
+                                        targetDate: "2026-12-30T10:30:00+05:30",
                                         isOpen: e,
                                         delay: 0.4,
                                         className: "mb-0",
@@ -1196,7 +1196,7 @@ function GroomReveal() {
                                     size: 24,
                                   }),
                                   title: "Time",
-                                  content: "11:11 AM",
+                                  content: "10:30 AM",
                                   subContent: "",
                                 }),
                                 (0, s.jsx)(S, {
