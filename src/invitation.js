@@ -486,6 +486,7 @@
                 venue.intro && (0, s.jsx)("p", { className: "venue-location-intro", children: venue.intro }),
                 (0, s.jsx)("h3", { className: "venue-location-name", children: venue.title }),
                 (0, s.jsx)("p", { className: "venue-location-address", children: venue.address }),
+                venue.time && (0, s.jsx)("p", { className: "venue-location-time", children: "Time: " + venue.time }),
               ],
             }),
             (0, s.jsx)("iframe", {
@@ -1217,7 +1218,7 @@ function GroomReveal() {
                               className: "wedding-venue-grid",
                               children: [
                                 (0, s.jsx)(VenueMap, {"label":"Wedding church","title":"TRINITY MAR THOMA CHURCH, MEDICAL COLLEGE","address":"Thiruvananthapuram","href":"https://maps.app.goo.gl/gGeWqZYqqkfbE4QLA","embed":"https://www.google.com/maps?q=8.5173548,76.9318288&z=16&output=embed","action":"Directions to church"}),
-                                (0, s.jsx)(VenueMap, {"label":"Reception venue","intro":"Reception to follow at the","title":"Sooryaprabha Convention Centre","address":"Mannanthala, Thiruvananthapuram","href":"https://maps.app.goo.gl/dwpdAW2Uzjs1xFCW9","embed":"https://www.google.com/maps?q=8.565688,76.9440848&z=16&output=embed","action":"Directions to reception"})
+                                (0, s.jsx)(VenueMap, {"label":"Reception venue","intro":"Reception to follow at the","title":"Sooryaprabha Convention Centre","address":"Mannanthala, Thiruvananthapuram","time":"12:30 PM","href":"https://maps.app.goo.gl/dwpdAW2Uzjs1xFCW9","embed":"https://www.google.com/maps?q=8.565688,76.9440848&z=16&output=embed","action":"Directions to reception"})
                               ]
                             }),
                           ],

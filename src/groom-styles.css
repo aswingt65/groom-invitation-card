@@ -103,6 +103,15 @@ body { background: var(--groom-ivory); }
 }
 .groom-content .venue-location-directions:hover { background: #24465c; }
 .groom-content .venue-location-label { color: #806847; overflow-wrap: anywhere; }
+.groom-content .venue-location-time {
+  margin-top: .35rem;
+  color: #345970;
+  font-family: var(--font-sans);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
 .groom-content .venue-location-map {
   filter: saturate(.7);
   width: calc(100% - 24px);
